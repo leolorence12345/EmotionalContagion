@@ -2,6 +2,18 @@
 
 A comprehensive machine learning pipeline to measure emotional contagion through tweets by integrating text and image metadata. This project analyzes how emotions spread through social media networks by examining parent-child tweet relationships.
 
+## 📊 Visualization: Emotional Contagion Flow
+
+The following Sankey diagram visualizes the emotional contagion patterns, showing how emotions flow from parent tweets to child tweets:
+
+![Emotional Contagion Sankey Diagram](Screenshot%202025-11-12%20204312.png)
+
+**Key Insights from the Visualization:**
+- **Fear** shows the strongest persistence (237,196 → 248,691), indicating high emotional contagion
+- **Anger** demonstrates significant transformation, with many instances converting to fear or neutral states
+- **Neutral** emotions tend to remain neutral, showing stability in non-emotional content
+- Cross-emotion flows reveal complex emotional dynamics, with anger-to-fear being a notable transformation pattern
+
 ## 🎯 Project Overview
 
 This project develops a model to measure emotional contagion through tweets by:
@@ -255,18 +267,6 @@ The analysis provides:
 - Contagion probabilities for each emotion pair
 - Overall contagion rate
 - Hourly contagion patterns
-
-### Visualization: Emotional Contagion Flow
-
-The following Sankey diagram visualizes the emotional contagion patterns, showing how emotions flow from parent tweets to child tweets:
-
-![Emotional Contagion Sankey Diagram](Screenshot%202025-11-12%20204312.png)
-
-**Key Insights from the Visualization:**
-- **Fear** shows the strongest persistence (237,196 → 248,691), indicating high emotional contagion
-- **Anger** demonstrates significant transformation, with many instances converting to fear or neutral states
-- **Neutral** emotions tend to remain neutral, showing stability in non-emotional content
-- Cross-emotion flows reveal complex emotional dynamics, with anger-to-fear being a notable transformation pattern
 
 ## 🔧 Configuration
 
