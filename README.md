@@ -2,7 +2,7 @@
 
 A comprehensive machine learning pipeline to measure emotional contagion through tweets by integrating text and image metadata. This project analyzes how emotions spread through social media networks by examining parent-child tweet relationships.
 
-## 📊 Visualization: Emotional Contagion Flow
+##  Visualization: Emotional Contagion Flow
 
 The following Sankey diagram visualizes the emotional contagion patterns, showing how emotions flow from parent tweets to child tweets:
 
@@ -14,7 +14,7 @@ The following Sankey diagram visualizes the emotional contagion patterns, showin
 - **Neutral** emotions tend to remain neutral, showing stability in non-emotional content
 - Cross-emotion flows reveal complex emotional dynamics, with anger-to-fear being a notable transformation pattern
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project develops a model to measure emotional contagion through tweets by:
 - **Data Collection**: Web scraping 17,000+ tweets with images and text
@@ -24,13 +24,13 @@ This project develops a model to measure emotional contagion through tweets by:
 
 ### Key Features
 
-- ✅ **Multi-modal Emotion Detection**: Combines text-based (BERT) and image-based (DeepFace) emotion analysis
-- ✅ **Text Extraction from Images**: Uses Pytesseract OCR to extract text from tweet images
-- ✅ **BERTweet Integration**: Modified BERTweet model predicting 10 emotions with 85% accuracy
-- ✅ **NLTK-based Analysis**: LeXmo emotion analyzer using NRC Emotion Lexicon
-- ✅ **Contagion Pattern Analysis**: Quantifies emotion transfer in tweet networks
+-  **Multi-modal Emotion Detection**: Combines text-based (BERT) and image-based (DeepFace) emotion analysis
+-  **Text Extraction from Images**: Uses Pytesseract OCR to extract text from tweet images
+-  **BERTweet Integration**: Modified BERTweet model predicting 10 emotions with 85% accuracy
+-  **NLTK-based Analysis**: LeXmo emotion analyzer using NRC Emotion Lexicon
+-  **Contagion Pattern Analysis**: Quantifies emotion transfer in tweet networks
 
-## 📊 Dataset
+##  Dataset
 
 - **Size**: 17,000+ tweets with images and text
 - **Source**: Twitter API v2 (web scraping)
@@ -42,7 +42,7 @@ This project develops a model to measure emotional contagion through tweets by:
 - `fifaworldcup2022.csv` - Raw World Cup tweet pairs
 - `bertemotionresult_fifaworldcup.csv` - BERT emotion classification results
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 .
@@ -67,7 +67,7 @@ This project develops a model to measure emotional contagion through tweets by:
 └── README.md                     # This file
 ```
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -252,7 +252,7 @@ analyzer = ContagionAnalyzer()
 matrix = analyzer.create_contagion_matrix(df)
 ```
 
-## 📊 Results
+##  Results
 
 ### Model Performance
 
@@ -268,7 +268,7 @@ The analysis provides:
 - Overall contagion rate
 - Hourly contagion patterns
 
-## 🔧 Configuration
+##  Configuration
 
 Edit `config/config.ini` to set:
 - Twitter API credentials
@@ -276,14 +276,14 @@ Edit `config/config.ini` to set:
 - Model configurations
 - Data paths
 
-## 📝 Notebooks
+##  Notebooks
 
 Explore the Jupyter notebooks in the `notebooks/` directory:
 - `extract_tweet.ipynb`: Tweet extraction and preprocessing
 - `emotionalcontagion_bert.ipynb`: BERT-based emotion classification
 - `tweet_contagion.ipynb`: Contagion pattern analysis
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **NLP**: Transformers (BERT), NLTK, NRC Emotion Lexicon
 - **Computer Vision**: DeepFace, OpenCV, Pytesseract
@@ -291,30 +291,27 @@ Explore the Jupyter notebooks in the `notebooks/` directory:
 - **API**: Twitter API v2 (Twarc2)
 - **Translation**: Googletrans
 
-## 📄 License
+##  License
 
 [Add your license here]
 
-## 👥 Authors
+##  Authors
 
 [Add your name/team here]
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - NRC Emotion Lexicon
 - HuggingFace Transformers
 - DeepFace library
 - Twitter API
 
-## 📧 Contact
 
-[Add your contact information]
-
-## 🚦 Quick Start
+##  Quick Start
 
 For a quick start guide, see [QUICKSTART.md](QUICKSTART.md)
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [Quick Start Guide](QUICKSTART.md) - Get started in 5 minutes
 - [Example Usage](example_usage.py) - Code examples and demonstrations
