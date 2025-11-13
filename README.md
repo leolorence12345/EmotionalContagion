@@ -256,6 +256,18 @@ The analysis provides:
 - Overall contagion rate
 - Hourly contagion patterns
 
+### Visualization: Emotional Contagion Flow
+
+The following Sankey diagram visualizes the emotional contagion patterns, showing how emotions flow from parent tweets to child tweets:
+
+![Emotional Contagion Sankey Diagram](Screenshot%202025-11-12%20204312.png)
+
+**Key Insights from the Visualization:**
+- **Fear** shows the strongest persistence (237,196 → 248,691), indicating high emotional contagion
+- **Anger** demonstrates significant transformation, with many instances converting to fear or neutral states
+- **Neutral** emotions tend to remain neutral, showing stability in non-emotional content
+- Cross-emotion flows reveal complex emotional dynamics, with anger-to-fear being a notable transformation pattern
+
 ## 🔧 Configuration
 
 Edit `config/config.ini` to set:
