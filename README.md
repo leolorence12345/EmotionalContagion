@@ -109,7 +109,7 @@ This project develops a model to measure emotional contagion through tweets by:
    # Edit config/config.ini with your Twitter API credentials
    ```
 
-## 📖 Usage
+##  Usage
 
 ### 1. Data Collection
 
